@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>Project Pictures/arrow 2.png</file>
+        <file>Project Pictures/arrow 3.png</file>
+        <file>Project Pictures/dual-yellow-blue-background-writing-text.jpg</file>
+        <file>Project Pictures/Group 46.png</file>
+        <file>Project Pictures/image 1.png</file>
+        <file>Project Pictures/leave 1.png</file>
+        <file>Project Pictures/lock_3039483.png</file>
+        <file>Project Pictures/search_4398568.png</file>
+        <file>Project Pictures/user_1077063.png</file>
+    </qresource>
+</RCC>
