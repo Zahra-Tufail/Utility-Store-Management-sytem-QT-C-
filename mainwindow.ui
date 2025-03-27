@@ -63,7 +63,7 @@
      <string notr="true"/>
     </property>
     <property name="currentIndex">
-     <number>8</number>
+     <number>3</number>
     </property>
     <widget class="QWidget" name="vendorlist">
      <widget class="QLabel" name="label_2">
@@ -151,7 +151,7 @@ color: white;
        <string notr="true">background:#e3edf9;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::Box</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <property name="text">
        <string/>
@@ -225,10 +225,7 @@ color: white;
 border: none;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QLabel" name="label_87">
        <property name="geometry">
@@ -646,10 +643,7 @@ color:  white;
 border: none;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QLabel" name="label_95">
        <property name="geometry">
@@ -1056,10 +1050,7 @@ color:  white;
        <string notr="true">background:#e3edf9;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QTableView" name="tableView_2">
        <property name="geometry">
@@ -1271,19 +1262,19 @@ color:  white;
        <string notr="true">background:#e3edf9 ;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QTableWidget" name="tableWidget">
        <property name="geometry">
         <rect>
          <x>110</x>
-         <y>180</y>
-         <width>611</width>
-         <height>401</height>
+         <y>190</y>
+         <width>571</width>
+         <height>351</height>
         </rect>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
        </property>
        <row>
         <property name="text">
@@ -1519,7 +1510,7 @@ color:  white;
       <widget class="QPushButton" name="pushButton_25">
        <property name="geometry">
         <rect>
-         <x>620</x>
+         <x>580</x>
          <y>130</y>
          <width>101</width>
          <height>41</height>
@@ -1545,9 +1536,9 @@ color:  white;
        <property name="geometry">
         <rect>
          <x>80</x>
-         <y>40</y>
+         <y>50</y>
          <width>151</width>
-         <height>51</height>
+         <height>41</height>
         </rect>
        </property>
        <property name="font">
@@ -1589,9 +1580,9 @@ color: white;
        <property name="geometry">
         <rect>
          <x>120</x>
-         <y>40</y>
+         <y>50</y>
          <width>601</width>
-         <height>51</height>
+         <height>41</height>
         </rect>
        </property>
        <property name="styleSheet">
@@ -1648,10 +1639,7 @@ background: white;
 border: none;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QLabel" name="label_61">
        <property name="geometry">
@@ -2060,10 +2048,7 @@ color:  white;
        <string notr="true">background:#e3edf9 ;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QFrame" name="frame_14">
        <property name="geometry">
@@ -2080,10 +2065,7 @@ color:  white;
 border-radius:20px;</string>
        </property>
        <property name="frameShape">
-        <enum>QFrame::Shape::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Shadow::Raised</enum>
+        <enum>QFrame::NoFrame</enum>
        </property>
        <widget class="QLabel" name="label_363">
         <property name="geometry">
@@ -2125,7 +2107,7 @@ font: 700 22pt &quot;Century Gothic&quot;;
           <family>Segoe UI</family>
           <pointsize>12</pointsize>
           <italic>false</italic>
-          <fontweight>DemiBold</fontweight>
+          <bold>true</bold>
          </font>
         </property>
         <property name="styleSheet">
@@ -2134,102 +2116,6 @@ font: 600 12pt &quot;Segoe UI&quot;;</string>
         </property>
         <property name="text">
          <string>Product ID:   </string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_365">
-        <property name="geometry">
-         <rect>
-          <x>120</x>
-          <y>140</y>
-          <width>121</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Segoe UI</family>
-          <pointsize>12</pointsize>
-          <italic>false</italic>
-          <fontweight>DemiBold</fontweight>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 600 12pt &quot;Segoe UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>Product Type:   </string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_366">
-        <property name="geometry">
-         <rect>
-          <x>120</x>
-          <y>200</y>
-          <width>121</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Segoe UI</family>
-          <pointsize>12</pointsize>
-          <italic>false</italic>
-          <fontweight>DemiBold</fontweight>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 600 12pt &quot;Segoe UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>Description:   </string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_367">
-        <property name="geometry">
-         <rect>
-          <x>120</x>
-          <y>260</y>
-          <width>121</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Segoe UI</family>
-          <pointsize>12</pointsize>
-          <italic>false</italic>
-          <fontweight>DemiBold</fontweight>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 600 12pt &quot;Segoe UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>Vendor:   </string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_368">
-        <property name="geometry">
-         <rect>
-          <x>120</x>
-          <y>320</y>
-          <width>121</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Segoe UI</family>
-          <pointsize>12</pointsize>
-          <italic>false</italic>
-          <fontweight>DemiBold</fontweight>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 600 12pt &quot;Segoe UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>Stock Quantity:   </string>
         </property>
        </widget>
        <widget class="QLineEdit" name="lineEdit">
@@ -2307,54 +2193,6 @@ border: 1px solid black;
 background-color:white;</string>
         </property>
        </widget>
-       <widget class="QLabel" name="label_369">
-        <property name="geometry">
-         <rect>
-          <x>120</x>
-          <y>380</y>
-          <width>121</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Segoe UI</family>
-          <pointsize>12</pointsize>
-          <italic>false</italic>
-          <fontweight>DemiBold</fontweight>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 600 12pt &quot;Segoe UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>Unit Price:   </string>
-        </property>
-       </widget>
-       <widget class="QLabel" name="label_370">
-        <property name="geometry">
-         <rect>
-          <x>120</x>
-          <y>440</y>
-          <width>121</width>
-          <height>31</height>
-         </rect>
-        </property>
-        <property name="font">
-         <font>
-          <family>Segoe UI</family>
-          <pointsize>12</pointsize>
-          <italic>false</italic>
-          <fontweight>DemiBold</fontweight>
-         </font>
-        </property>
-        <property name="styleSheet">
-         <string notr="true">font: 600 12pt &quot;Segoe UI&quot;;</string>
-        </property>
-        <property name="text">
-         <string>Total Cost:   </string>
-        </property>
-       </widget>
        <widget class="QLineEdit" name="lineEdit_16">
         <property name="geometry">
          <rect>
@@ -2425,6 +2263,156 @@ border:no;
          <string>SUBMIT FORM</string>
         </property>
        </widget>
+       <widget class="QLabel" name="label_365">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>140</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>12</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 600 12pt &quot;Segoe UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Product ID:   </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_366">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>200</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>12</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 600 12pt &quot;Segoe UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Product ID:   </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_367">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>260</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>12</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 600 12pt &quot;Segoe UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Product ID:   </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_368">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>320</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>12</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 600 12pt &quot;Segoe UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Product ID:   </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_369">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>380</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>12</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 600 12pt &quot;Segoe UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Product ID:   </string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_370">
+        <property name="geometry">
+         <rect>
+          <x>120</x>
+          <y>440</y>
+          <width>121</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Segoe UI</family>
+          <pointsize>12</pointsize>
+          <italic>false</italic>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 600 12pt &quot;Segoe UI&quot;;</string>
+        </property>
+        <property name="text">
+         <string>Product ID:   </string>
+        </property>
+       </widget>
       </widget>
      </widget>
      <widget class="QFrame" name="frame_9">
@@ -2441,10 +2429,7 @@ border:no;
 border: none;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QLabel" name="label_72">
        <property name="geometry">
@@ -2953,7 +2938,7 @@ color: white;
          <string notr="true">background:#e3edf9;</string>
         </property>
         <property name="frameShape">
-         <enum>QFrame::Shape::Box</enum>
+         <enum>QFrame::NoFrame</enum>
         </property>
         <property name="text">
          <string/>
@@ -3414,10 +3399,7 @@ color:  white;
          <string notr="true">background:#e3edf9;</string>
         </property>
         <property name="frameShape">
-         <enum>QFrame::Shape::StyledPanel</enum>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Shadow::Raised</enum>
+         <enum>QFrame::NoFrame</enum>
         </property>
         <widget class="QLabel" name="label_404">
          <property name="geometry">
@@ -3710,10 +3692,7 @@ color:  white;
          <string notr="true">background:#e3edf9 ;</string>
         </property>
         <property name="frameShape">
-         <enum>QFrame::Shape::StyledPanel</enum>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Shadow::Raised</enum>
+         <enum>QFrame::NoFrame</enum>
         </property>
         <widget class="QTableWidget" name="tableWidget_6">
          <property name="geometry">
@@ -4071,10 +4050,7 @@ background: white;
          <string notr="true">background:#e3edf9 ;</string>
         </property>
         <property name="frameShape">
-         <enum>QFrame::Shape::StyledPanel</enum>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Shadow::Raised</enum>
+         <enum>QFrame::NoFrame</enum>
         </property>
         <widget class="QFrame" name="frame_20">
          <property name="geometry">
@@ -4090,10 +4066,7 @@ background: white;
 border-radius:20px;</string>
          </property>
          <property name="frameShape">
-          <enum>QFrame::Shape::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Shadow::Raised</enum>
+          <enum>QFrame::NoFrame</enum>
          </property>
          <widget class="QLabel" name="label_421">
           <property name="geometry">
@@ -4121,55 +4094,6 @@ font: 700 22pt &quot;Century Gothic&quot;;
            <string>UTILISOFT</string>
           </property>
          </widget>
-         <widget class="QLabel" name="label_422">
-          <property name="geometry">
-           <rect>
-            <x>120</x>
-            <y>80</y>
-            <width>121</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <family>Segoe UI</family>
-            <pointsize>12</pointsize>
-            <italic>false</italic>
-            <fontweight>DemiBold</fontweight>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">
-font: 600 12pt &quot;Segoe UI&quot;;</string>
-          </property>
-          <property name="text">
-           <string>Product ID:   </string>
-          </property>
-         </widget>
-         <widget class="QLabel" name="label_423">
-          <property name="geometry">
-           <rect>
-            <x>120</x>
-            <y>140</y>
-            <width>121</width>
-            <height>31</height>
-           </rect>
-          </property>
-          <property name="font">
-           <font>
-            <family>Segoe UI</family>
-            <pointsize>12</pointsize>
-            <italic>false</italic>
-            <fontweight>DemiBold</fontweight>
-           </font>
-          </property>
-          <property name="styleSheet">
-           <string notr="true">font: 600 12pt &quot;Segoe UI&quot;;</string>
-          </property>
-          <property name="text">
-           <string>Product Type:   </string>
-          </property>
-         </widget>
          <widget class="QLabel" name="label_424">
           <property name="geometry">
            <rect>
@@ -4184,7 +4108,7 @@ font: 600 12pt &quot;Segoe UI&quot;;</string>
             <family>Segoe UI</family>
             <pointsize>12</pointsize>
             <italic>false</italic>
-            <fontweight>DemiBold</fontweight>
+            <bold>true</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -4208,7 +4132,7 @@ font: 600 12pt &quot;Segoe UI&quot;;</string>
             <family>Segoe UI</family>
             <pointsize>12</pointsize>
             <italic>false</italic>
-            <fontweight>DemiBold</fontweight>
+            <bold>true</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -4232,7 +4156,7 @@ font: 600 12pt &quot;Segoe UI&quot;;</string>
             <family>Segoe UI</family>
             <pointsize>12</pointsize>
             <italic>false</italic>
-            <fontweight>DemiBold</fontweight>
+            <bold>true</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -4328,7 +4252,7 @@ background-color:white;</string>
             <family>Segoe UI</family>
             <pointsize>12</pointsize>
             <italic>false</italic>
-            <fontweight>DemiBold</fontweight>
+            <bold>true</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -4352,7 +4276,7 @@ background-color:white;</string>
             <family>Segoe UI</family>
             <pointsize>12</pointsize>
             <italic>false</italic>
-            <fontweight>DemiBold</fontweight>
+            <bold>true</bold>
            </font>
           </property>
           <property name="styleSheet">
@@ -4449,10 +4373,7 @@ border:no;
          <string notr="true">width: 1067px;</string>
         </property>
         <property name="frameShape">
-         <enum>QFrame::Shape::StyledPanel</enum>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Shadow::Raised</enum>
+         <enum>QFrame::NoFrame</enum>
         </property>
         <widget class="QFrame" name="frame_22">
          <property name="geometry">
@@ -4473,10 +4394,7 @@ border:no;
           <string notr="true">background:#e3edf9;</string>
          </property>
          <property name="frameShape">
-          <enum>QFrame::Shape::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Shadow::Raised</enum>
+          <enum>QFrame::NoFrame</enum>
          </property>
          <widget class="QTableWidget" name="tableWidget_7">
           <property name="geometry">
@@ -4856,10 +4774,7 @@ color: white;
 border: none;</string>
          </property>
          <property name="frameShape">
-          <enum>QFrame::Shape::StyledPanel</enum>
-         </property>
-         <property name="frameShadow">
-          <enum>QFrame::Shadow::Raised</enum>
+          <enum>QFrame::NoFrame</enum>
          </property>
          <widget class="QLabel" name="label_45">
           <property name="geometry">
@@ -5269,10 +5184,7 @@ color:  white;
          <string notr="true">background:#e3edf9 ;</string>
         </property>
         <property name="frameShape">
-         <enum>QFrame::Shape::StyledPanel</enum>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Shadow::Raised</enum>
+         <enum>QFrame::NoFrame</enum>
         </property>
         <widget class="QTableWidget" name="tableWidget_8">
          <property name="geometry">
@@ -5651,10 +5563,7 @@ background: white;
 border:1px solid #c9a25e ;</string>
         </property>
         <property name="frameShape">
-         <enum>QFrame::Shape::StyledPanel</enum>
-        </property>
-        <property name="frameShadow">
-         <enum>QFrame::Shadow::Raised</enum>
+         <enum>QFrame::NoFrame</enum>
         </property>
         <widget class="QLabel" name="label_443">
          <property name="geometry">
@@ -5910,7 +5819,7 @@ color:#1E3A8A; </string>
          <string notr="true">background:#e3edf9;</string>
         </property>
         <property name="frameShape">
-         <enum>QFrame::Shape::Box</enum>
+         <enum>QFrame::NoFrame</enum>
         </property>
         <property name="text">
          <string/>
@@ -6187,10 +6096,7 @@ background: white;
 border: none;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QLabel" name="label_119">
        <property name="geometry">
@@ -6530,10 +6436,7 @@ color:  white;
        <string notr="true">width: 1067px;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QFrame" name="frame_16">
        <property name="geometry">
@@ -6554,10 +6457,7 @@ color:  white;
         <string notr="true">background:#e3edf9;</string>
        </property>
        <property name="frameShape">
-        <enum>QFrame::Shape::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Shadow::Raised</enum>
+        <enum>QFrame::NoFrame</enum>
        </property>
        <widget class="QLabel" name="label_163">
         <property name="geometry">
@@ -6949,10 +6849,7 @@ QComboBox QAbstractItemView::item:hover {
 border: none;</string>
        </property>
        <property name="frameShape">
-        <enum>QFrame::Shape::StyledPanel</enum>
-       </property>
-       <property name="frameShadow">
-        <enum>QFrame::Shadow::Raised</enum>
+        <enum>QFrame::NoFrame</enum>
        </property>
        <widget class="QLabel" name="label_79">
         <property name="geometry">
@@ -7362,10 +7259,7 @@ color:  white;
        <string notr="true">background:#e3edf9 ;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QTableWidget" name="tableWidget_4">
        <property name="geometry">
@@ -7663,10 +7557,7 @@ color: white;
 border: none;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QLabel" name="label_108">
        <property name="geometry">
@@ -8096,10 +7987,7 @@ color:  white;
 border:1px solid #c9a25e ;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QLabel" name="label_8">
        <property name="geometry">
@@ -8283,9 +8171,9 @@ border: none;
       <widget class="QLabel" name="label_12">
        <property name="geometry">
         <rect>
-         <x>90</x>
+         <x>80</x>
          <y>100</y>
-         <width>151</width>
+         <width>191</width>
          <height>41</height>
         </rect>
        </property>
@@ -8343,9 +8231,9 @@ color:#1E3A8A; </string>
       <property name="geometry">
        <rect>
         <x>320</x>
-        <y>20</y>
+        <y>30</y>
         <width>151</width>
-        <height>51</height>
+        <height>41</height>
        </rect>
       </property>
       <property name="font">
@@ -8368,7 +8256,7 @@ color: white;
       <property name="geometry">
        <rect>
         <x>900</x>
-        <y>30</y>
+        <y>40</y>
         <width>31</width>
         <height>31</height>
        </rect>
@@ -8387,7 +8275,7 @@ color: white;
       <property name="geometry">
        <rect>
         <x>270</x>
-        <y>180</y>
+        <y>130</y>
         <width>761</width>
         <height>201</height>
        </rect>
@@ -8419,30 +8307,11 @@ color: white;
        <bool>true</bool>
       </property>
      </widget>
-     <widget class="QLabel" name="label_52">
-      <property name="geometry">
-       <rect>
-        <x>610</x>
-        <y>260</y>
-        <width>161</width>
-        <height>161</height>
-       </rect>
-      </property>
-      <property name="text">
-       <string/>
-      </property>
-      <property name="pixmap">
-       <pixmap resource="pictures.qrc">:/new/prefix1/Project Pictures/arrow 3.png</pixmap>
-      </property>
-      <property name="scaledContents">
-       <bool>true</bool>
-      </property>
-     </widget>
      <widget class="QLabel" name="label_53">
       <property name="geometry">
        <rect>
         <x>330</x>
-        <y>240</y>
+        <y>180</y>
         <width>141</width>
         <height>31</height>
        </rect>
@@ -8465,7 +8334,7 @@ color: white;
       <property name="geometry">
        <rect>
         <x>470</x>
-        <y>240</y>
+        <y>180</y>
         <width>141</width>
         <height>31</height>
        </rect>
@@ -8489,7 +8358,7 @@ color: white;
       <property name="geometry">
        <rect>
         <x>330</x>
-        <y>270</y>
+        <y>230</y>
         <width>161</width>
         <height>16</height>
        </rect>
@@ -8510,7 +8379,7 @@ color: white;
       <property name="geometry">
        <rect>
         <x>720</x>
-        <y>180</y>
+        <y>140</y>
         <width>251</width>
         <height>191</height>
        </rect>
@@ -8529,9 +8398,9 @@ color: white;
       <property name="geometry">
        <rect>
         <x>340</x>
-        <y>20</y>
+        <y>30</y>
         <width>601</width>
-        <height>51</height>
+        <height>41</height>
        </rect>
       </property>
       <property name="styleSheet">
@@ -8547,7 +8416,7 @@ background: white;
       <property name="geometry">
        <rect>
         <x>880</x>
-        <y>180</y>
+        <y>150</y>
         <width>171</width>
         <height>111</height>
        </rect>
@@ -8572,14 +8441,11 @@ background: white;
        </rect>
       </property>
       <property name="styleSheet">
-       <string notr="true">background: #150a4a;
+       <string notr="true">background-color: rgba(32,36,58,255);
 border: none;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
-      </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
       <widget class="QLabel" name="label_41">
        <property name="geometry">
@@ -8986,58 +8852,69 @@ color:  white;
        <string notr="true">background:#e3edf9 ;</string>
       </property>
       <property name="frameShape">
-       <enum>QFrame::Shape::StyledPanel</enum>
+       <enum>QFrame::NoFrame</enum>
       </property>
-      <property name="frameShadow">
-       <enum>QFrame::Shadow::Raised</enum>
-      </property>
-      <widget class="QLabel" name="label_4">
+      <widget class="QLabel" name="label_5">
        <property name="geometry">
         <rect>
-         <x>100</x>
-         <y>410</y>
-         <width>301</width>
-         <height>221</height>
+         <x>480</x>
+         <y>380</y>
+         <width>341</width>
+         <height>261</height>
         </rect>
-       </property>
-       <property name="styleSheet">
-        <string notr="true">
-</string>
        </property>
        <property name="text">
         <string/>
        </property>
        <property name="pixmap">
-        <pixmap resource="pictures.qrc">:/new/prefix1/Project Pictures/matched_background_pie_chart.png</pixmap>
+        <pixmap resource="pictures.qrc">:/new/prefix1/Project Pictures/product_categories.png</pixmap>
        </property>
        <property name="scaledContents">
         <bool>true</bool>
        </property>
       </widget>
-      <widget class="QLabel" name="label_5">
+      <widget class="QFrame" name="frame_3">
        <property name="geometry">
         <rect>
-         <x>510</x>
-         <y>410</y>
-         <width>291</width>
-         <height>221</height>
+         <x>60</x>
+         <y>380</y>
+         <width>391</width>
+         <height>261</height>
         </rect>
        </property>
-       <property name="text">
-        <string/>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
        </property>
-       <property name="pixmap">
-        <pixmap resource="pictures.qrc">:/new/prefix1/Project Pictures/matched_background_graph.png</pixmap>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
        </property>
-       <property name="scaledContents">
-        <bool>true</bool>
-       </property>
+       <widget class="QLabel" name="label_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>391</width>
+          <height>261</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap resource="pictures.qrc">:/new/prefix1/Project Pictures/monthly_sales_trend.png</pixmap>
+        </property>
+        <property name="scaledContents">
+         <bool>true</bool>
+        </property>
+       </widget>
       </widget>
      </widget>
      <zorder>frame_5</zorder>
      <zorder>label_50</zorder>
      <zorder>label_51</zorder>
-     <zorder>label_52</zorder>
      <zorder>label_53</zorder>
      <zorder>label_54</zorder>
      <zorder>label_55</zorder>
